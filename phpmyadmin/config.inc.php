@@ -13,7 +13,7 @@ $i++;
 $cfg['Servers'][$i]['verbose']      = 'pagoda free';
 $cfg['Servers'][$i]['host']         = '';
 $cfg['Servers'][$i]['port']         = '';
-$cfg['Servers'][$i]['socket']       = '/tmp/mysql/delmy.sock';
+$cfg['Servers'][$i]['socket']       = '/tmp/mysql/herminia.sock';
 $cfg['Servers'][$i]['connect_type'] = 'socket';
 $cfg['Servers'][$i]['extension']    = 'mysqli';
 $cfg['Servers'][$i]['auth_type']    = 'config';
