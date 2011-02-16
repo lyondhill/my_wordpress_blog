@@ -76,7 +76,7 @@ function twentyten_setup() {
 
 	// This theme styles the visual editor with editor-style.css to match the theme style.
 	add_editor_style();
-
+	register_default_headers();
 	// This theme uses post thumbnails
 	add_theme_support( 'post-thumbnails' );
 
