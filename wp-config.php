@@ -19,13 +19,13 @@
 define('DB_NAME', 'braxton');
 
 /** MySQL database username */
-define('DB_USER', 'viki');
+define('DB_USER', 'rosa');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'WXhSwuq3');
+define('DB_PASSWORD', 'lX0kUtmp');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost:/tmp/mysql/akilah.sock');
+define('DB_HOST', 'localhost:/tmp/mysql/liza.sock');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
