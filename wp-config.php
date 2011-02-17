@@ -19,7 +19,7 @@
 define('DB_NAME', 'lyon');
 
 /** MySQL database username */
-define('DB_USER', 'terese');
+define('DB_USER', 'tere');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'vgKufGI7');
