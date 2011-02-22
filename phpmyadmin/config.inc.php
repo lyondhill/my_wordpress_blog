@@ -10,7 +10,7 @@ $i = 0;
 
 /* Server: pagoda free [1] */
 $i++;
-$cfg['Servers'][$i]['verbose']      = 'pagoda free';
+$cfg['Servers'][$i]['verbose']      = 'nonyobusiness';
 $cfg['Servers'][$i]['host']         = '';
 $cfg['Servers'][$i]['port']         = '';
 $cfg['Servers'][$i]['socket']       = '/tmp/mysql/cassie.sock';
