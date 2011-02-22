@@ -13,12 +13,12 @@ $i++;
 $cfg['Servers'][$i]['verbose']      = 'pagoda free';
 $cfg['Servers'][$i]['host']         = '';
 $cfg['Servers'][$i]['port']         = '';
-$cfg['Servers'][$i]['socket']       = '/tmp/mysql/akilah.sock';
+$cfg['Servers'][$i]['socket']       = '/tmp/mysql/cassie.sock';
 $cfg['Servers'][$i]['connect_type'] = 'socket';
 $cfg['Servers'][$i]['extension']    = 'mysqli';
 $cfg['Servers'][$i]['auth_type']    = 'config';
-$cfg['Servers'][$i]['user']         = 'viki';
-$cfg['Servers'][$i]['password']     = 'WXhSwuq3';
+$cfg['Servers'][$i]['user']         = 'stacia';
+$cfg['Servers'][$i]['password']     = 'rtFmcy2I';
 
 /* End of servers configuration */
 
