@@ -1,0 +1,2 @@
+general: 
+    writable_directories: [ /var/www/wp-content/uploads ]
