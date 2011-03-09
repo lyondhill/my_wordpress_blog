@@ -1,2 +1,5 @@
 general: 
     writable_directories: [ /wp-content/uploads/ ]
+
+php:
+   display_errors: Off
