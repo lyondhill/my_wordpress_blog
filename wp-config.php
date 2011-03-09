@@ -8,7 +8,7 @@
  * wp-config.php} Codex page. You can get the MySQL settings from your web host.
  *
  * This file is used by the wp-config.php creation script during the
- * installation. You don't have to use the web si you can just copy this file
+ * installation. You don't have to use the web site, you can just copy this file
  * to "wp-config.php" and fill in the values.
  *
  * @package WordPress
