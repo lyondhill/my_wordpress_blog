@@ -16,16 +16,16 @@
 
 // ** MySQLPAYRTY TIME settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'lyon');
+define('DB_NAME', 'lyon'); // lyon
 
 /** MySQL database username */
-define('DB_USER', 'lolita');
+define('DB_USER', 'michelle'); //lolita
 
 /** MySQL database password */
-define('DB_PASSWORD', 'LD3CtZOR');
+define('DB_PASSWORD', 'QsJAROPo'); //LD3CtZOR
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost:/tmp/mysql/micaela.sock');
+define('DB_HOST', 'localhost:/tmp/mysql/shavon.sock'); //micaela
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
