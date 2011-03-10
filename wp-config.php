@@ -16,7 +16,7 @@
 
 // ** MySQLPAYRTY TIME settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'lyon'); // lyon
+define('DB_NAME', 'shavon'); // lyon
 
 /** MySQL database username */
 define('DB_USER', 'michelle'); //lolita
