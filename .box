@@ -3,3 +3,4 @@ general:
 
 php:
    display_errors: on
+   upload_max_filesize: 20M
