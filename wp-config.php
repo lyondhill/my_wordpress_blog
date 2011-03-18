@@ -16,16 +16,16 @@
 
 // ** MySQLPAYRTY TIME settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'vonda'); // lyon
+define('DB_NAME', 'eladia'); // lyon
 
 /** MySQL database username */
-define('DB_USER', 'laurel'); //lolita
+define('DB_USER', 'lura'); //lolita
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Z28GhJ9b'); //LD3CtZOR
+define('DB_PASSWORD', 'JHd7b1f8'); //LD3CtZOR
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost:/tmp/mysql/vonda.sock'); //micaela
+define('DB_HOST', 'localhost:/tmp/mysql/eladia.sock'); //micaela
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
