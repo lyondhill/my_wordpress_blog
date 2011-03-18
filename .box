@@ -2,5 +2,5 @@ general:
     writable_directories: [ /wp-content/uploads/ ]
 
 php:
-   display_errors: on
+   display_errors: off
    upload_max_filesize: 20M
