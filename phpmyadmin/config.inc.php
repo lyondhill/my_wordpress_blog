@@ -10,15 +10,15 @@ $i = 0;
 
 /* Server: pagoda free [1] */
 $i++;
-$cfg['Servers'][$i]['verbose']      = 'nonyobusiness';
+$cfg['Servers'][$i]['verbose']      = 'katie';
 $cfg['Servers'][$i]['host']         = '';
 $cfg['Servers'][$i]['port']         = '';
-$cfg['Servers'][$i]['socket']       = '/tmp/mysql/cassie.sock';
+$cfg['Servers'][$i]['socket']       = '/tmp/mysql/katie.sock';
 $cfg['Servers'][$i]['connect_type'] = 'socket';
 $cfg['Servers'][$i]['extension']    = 'mysqli';
 $cfg['Servers'][$i]['auth_type']    = 'config';
-$cfg['Servers'][$i]['user']         = 'stacia';
-$cfg['Servers'][$i]['password']     = 'rtFmcy2I';
+$cfg['Servers'][$i]['user']         = 'an';
+$cfg['Servers'][$i]['password']     = '4pThovM0';
 
 /* End of servers configuration */
 
