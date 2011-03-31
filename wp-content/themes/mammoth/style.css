@@ -1,0 +1,505 @@
+/*  
+Theme Name: Mammoth
+
+Theme URI: http://schwarttzy.com/?page_id=752
+
+Description: This theme is my interpretation of a blog theme for very particular climbing gear company to give you the desire to get outside and find your adventure.
+
+Version: 1.0.7
+
+Author: Eric Schwarz
+
+Author URI: http://schwarttzy.com/?page_id=225
+
+Tags:  white, red, black, fixed-width
+
+License: GPL
+
+License URI: http://www.opensource.org/licenses/gpl-2.0.p
+
+*/
+
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: url(images/3.jpg) fixed center right #333 ;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Tahoma;
+	padding:0 5px;
+	color: #FFF;
+	text-transform:uppercase;
+	text-shadow:0 0 4px #444;
+	clear:both;
+}
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {border-left: 2px solid #d71015;}
+#center {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+h1 a {color: #FFF;}
+a {
+	color: #d71015;
+	text-decoration: none;
+}
+a:hover{
+	color:#FFF;
+}
+#menuz {
+	float: left;
+	text-shadow:0 0 6px #333;
+	background: url(images/6.png) bottom;
+	width:100%;
+	height: 150px;
+	border-bottom: 1px solid #333;
+	overflow: hidden;
+}
+#title {	
+	color: #ff8400;
+	padding:35px 0px 15px 10px;
+	margin:0px;
+	height:60px;
+	text-align:left;
+	width:100%;
+	overflow:hidden;
+}
+#title h1 {
+	font-size: 54px;
+	font-weight: bold;
+	padding:0px;
+	float:left;
+	margin:0px;
+	text-transform: uppercase;
+}
+#title h2 {
+	font-size: 36px;
+	font-weight: bold;
+	padding:0px;
+	float:left;
+	margin:18px 0 0 10px;
+	text-shadow:0 0 6px #666;
+	color:#cccbc4;
+	text-transform: uppercase;
+	clear:none;
+}
+#title h1 a{
+	color:#FFF;
+	border:none;
+	padding:0px;
+	margin:0px;
+}
+#title h1 a:hover{
+	color:#cccbc4;
+}
+#menulist, .menulist ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-position: outside;
+	position: relative;
+	overflow:hidden;
+}
+#menulist ul li li {
+	display:none;
+	padding:0;
+	margin:0;
+}
+#menulist li ul li {
+	display:none;
+	padding:0;
+	margin:0;
+}
+#menulist a {
+	height: 40px;
+	border:none;
+	font-size:16px;
+	line-height:35px;
+	display: block;
+	padding: 0px 12px 0px 12px;
+	color: #FFF;
+	text-decoration: none;
+	
+}
+#menulist a:hover {
+	border:none;
+	background: url(images/blacktrans.png);
+	color:#cccbc4;
+}
+#menulist li {
+	color:#d71015;
+	font-size: 14px;
+	list-style:none;
+	font-weight: bolder;
+	font-family: Tahoma;
+	text-transform: uppercase;
+	float: left;
+}
+
+.content {
+	float:left;
+	color:#cccbc4;
+	text-shadow:0 0 4px #000;
+	height: auto;
+	margin:100px 35px 0 35px;
+	width:900px;
+	text-align:justify;
+	background: url(images/blacktrans3.png);
+	padding:15px;
+	border: 1px solid #333;
+}
+
+.clearz{
+	width: 900px;
+	float: right;
+}
+.tags{ 
+	width: auto;
+	float: right;
+	padding:2px;
+	text-align: right;
+	font-size: 14px;
+}
+#endspacer{
+	float:left;
+	height:150px;
+	width:900px;
+	margin:75px 25px 25px 25px;
+}
+.label1 {
+	min-height: 90px;
+	width:250px;
+	font-size:34px;
+	overflow:hidden;
+	text-align:right;
+	padding: 0 15px 5px 0;
+	margin:0 20px 10px 20px;
+	float:left;
+	font-family: Tahoma;
+	font-weight:bold;
+	border-right: 2px solid #d71015;
+	text-transform:uppercase;
+	text-shadow:0 0 4px #444;
+	color:#FFF;
+}
+.label1 a {
+	color:#FFF;
+}
+.label1 a:hover {border-bottom: 2px solid #d71015;}
+.label2 {
+	min-height: 90px;
+	width:250px;
+	font-size:34px;
+	overflow:hidden;
+	padding: 0 0 5px 15px;
+	margin:0 20px 10px 20px;
+	float:right;
+	font-family: Tahoma;
+	font-weight:bold;
+	border-left: 2px solid #d71015;
+	text-transform:uppercase;
+	text-shadow:0 0 4px #444;
+	color:#FFF;
+}
+.label2 a {
+	border:none;
+	color:#FFF;
+	padding:0px;
+}
+.label2 a:hover {
+	border-bottom: 2px solid #d71015;
+}
+.widget{
+	float:left;
+	text-align:left;
+	width:210px;
+	margin:0 0 10px 15px;
+}
+.widget h1, #widget h2, #widget h3, #widget h4, #widget h5, #widget h6{
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	float: left;
+}
+.widget ul, .widget li{
+	list-style-type: none;
+	color: #cccbc4;
+	padding: 0;
+	margin: 0;
+}
+.widget ul ul ul{ display:none;float: left;
+} 
+.widget h2{
+	color: #FFF;
+	margin: 25px 0 10px 0;
+	width:200px;
+}	
+.widget a {
+	color: #cccbc4;
+}
+.widget a:hover {
+	color: #d71015;
+}
+#notfooter {
+	border-top:  2px solid #d71015;
+	margin-top:20px;
+	text-align:center;
+	float:left;
+	width:900px;
+	font-size:9px;
+}
+
+/************************************************
+				Comments          
+************************************************/
+.comment {
+	float:left;
+	list-style:none;
+	width:900px;
+	margin: 10px 0 5px 0;
+	padding:5px 0px;
+}
+.children {list-style: none;}
+.reply-title {
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 18px;
+}
+.comment-notes {
+	font-style:italic;
+	float:right;
+	font-size:12px;
+	padding-right:90px;
+}
+.comment-form-author, .comment-form-email, .comment-form-url, .comment-form-comment {
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 16px;
+}
+#author {margin-left:22px;}
+#email {margin-left:18px;}
+#url {margin-left:10px;}
+.form-submit {float:right;}
+.avatar {
+	float:left;
+	margin-right:5px;
+}
+.form-allowed-tags {display:none;}
+#comment {width:100%;}
+.comment .comment-notes {
+	font-style:italic;
+	font-size:13px;
+	float:right;
+	width:150px;
+	text-align:center;
+	padding-right:5px;
+}
+.comment #respond {
+	padding: 0 10px 0 10px;
+	background: url(images/whitetrans.png);
+	float:left;
+}
+.commentinfo{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	border-bottom: 1px solid #FFF;
+}
+.trackback, .pingback {
+	background: url(images/whitetrans.png);
+	float:left;
+	width:890px;
+	padding:5px;
+	margin-bottom:5px;
+	color:#FFF;
+	list-style:none;
+}
+.trackback a, .pingback a {color:#d71015;}
+.trackback a:hover, .pingback a:hover {color:#333;}
+.depth-2 {width: 850px;}
+.depth-3 {width: 810px;}
+.depth-4 {width: 770px;}
+.depth-5 {width: 730px;}
+.depth-6 {width: 690px;}
+.depth-7 {width: 650px;}
+.depth-8 {width: 610px;}
+
+/************************************************
+				Forms          
+************************************************/
+
+#s{
+	background: #FFFFFF url(images/search.gif) no-repeat scroll left top;
+	border-color: #DEDEDE #FFFFFF #FFFFFF #DEDEDE;
+	border-style: solid;
+	border-width: 1px;
+	margin-right: 4px;
+	padding: 2px 3px 3px 22px;
+	width: 175px;
+	color: #666;
+}
+
+input{
+	height: 25px;
+	background: url(images/form-field-bg.gif);
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	border-left: 1px solid #ccc;
+}
+
+.button, input[type="submit"], .submit {
+	border-color: #DEDEDE #bbb #bbb #DEDEDE;
+	border-style: solid;
+	border-width: 1px;
+	background: #e5e5e5 url(images/lightgrayup.png) repeat-x left top;
+	margin: 0;
+	padding: 2px 3px 1px 5px;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	color: #666;
+}
+
+.button:hover, input[type="submit"]:hover, .submit:hover {
+	color: #000;
+}
+.button:active, input[type="submit"]:active, .submit:active {
+	background: #e5e5e5 url(images/lightgraydown.png) repeat-x left top;
+}
+#textarea2 {
+	border-color: #DEDEDE #bbb #bbb #DEDEDE;
+	border-style: solid;
+	border-width: 1px;
+	font: 110% Arial, Helvetica, sans-serif;
+	background: url(images/form-field-bg.gif) no-repeat;
+	padding: 3px 7px 3px 7px;
+	margin-bottom: 10px;
+}
+
+
+/************************************************
+				Random          
+************************************************/
+
+blockquote {
+	font-style: italic;
+	margin: 10px;
+	padding: 5px;
+	background: url(images/whitetrans.png);
+	clear: left;
+	width:870px;
+}
+blockquote blockquote {width:840px; background: url(images/blacktrans3.png);}
+blockquote blockquote blockquote {width:810px;background: url(images/whitetrans.png);}
+blockquote blockquote blockquote blockquote {width:780px; background: url(images/blacktrans3.png);}
+cite {float:right;}
+address {color:#FFF; font-weight:bold;}
+img {
+	height: auto;
+	max-width: 900px;
+}
+a img {border: none;}
+a:hover img { border: none;}
+.alignleft {float:left;}
+.alignright {float:right;}
+img.alignleft {
+	float: left;
+	margin: 0 15px 10px 0;
+}
+img.alignright {
+	float: right;
+	margin: 0 0 10px 15px;
+}
+img.aligncenter {
+	margin: 10px auto 10px;
+	text-align: center;
+	display: block;
+}
+img.alignnone {
+	display: block;
+	margin: 10px 0 10px;	
+}
+.wp-caption {
+	background: url(images/50.png);
+	margin: 0 auto 0;
+	border:none;
+	padding:15px 10px 10px 10px;
+	margin:10px;
+	text-align: center;
+}
+.wp-caption p {
+	float:none;
+	width:auto;
+}
+.size-thumbnail {
+	margin: 0 15px 10px 0;
+}
+.gallery {
+	background: url(images/50.png);
+	padding: 0 5px 0 5px;
+	clear:both;
+}
+	
+.aligncenter {
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+}
+.left {float: left;}
+.textleft {text-align: left;}
+.right {float: right;}
+.textright {text-align: right;}
+.clear {clear: both;}
+.block{display: block;}
+.border{display: none; visibility: hidden;}
+.hidden {display: none; visibility: hidden;}
+hr {
+	border: 0 #d71015 solid;
+	border-top-width: 2px;
+	clear: both;
+	height: 0;
+}
+.bg {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+pre {
+	background:url(images/50.png);
+	padding:5px;
+	width:800px;
+	margin: 10px 50px 10px 50px;
+	text-shadow: none;
+	color:#000;
+} 
+.widget table {float:left;}
+table th {color: #0b6492;}
+table td, table th {
+	padding: 3px 6px;
+	font-size: 12px;
+}
+table th {
+	color:#FFF;
+	background: url(images/blacktrans.png);
+	font-weight:bold;
+	text-transform: uppercase;
+	border-bottom: 1px transparent;
+}
+table td {background: url(images/blacktrans.png);}
+table td  a {color:#FFF;}
+.wp-caption-text {
+	color:#FFF;
+	font-weight:bold;
+}
+.gallery-caption {
+	color:#FFF;
+	font-weight:bold;
+}
+
+/************************************************
+				Fortitudo Et Honos         
+************************************************/
