@@ -1,7 +1,4 @@
-general: 
-    writable_directories: [ /wp-content/uploads/ ]
-
-php:
-   display_errors: off
-   upload_max_filesize: 20M
-   extensions: [ mysqli, mbstring, mysql ]
+writable_directories: [ /wp-content/uploads/ ]
+display_errors: off
+upload_max_filesize: 20M
+extensions: [ mysqli, mbstring, mysql ]
