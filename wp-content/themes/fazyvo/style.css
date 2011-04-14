@@ -1,0 +1,340 @@
+/*
+Theme Name: Fazyvo
+Theme URI: http://www.noonnoo.com/my-free-wordpress-themes/fazyvo/fazyvo_1-6/
+Description: Fazyvo is a clean WordPress theme which has special features: &nbsp; # 1. Options Page (check out "Appearance > Fazyvo Options")  which allows you to choose another color schemes (blue, red, green, grey), set another header, set a welcome message, type a custom line of text in the footer for a copyright or something like that, etc. &nbsp; # 2. Browser support: IE6+, Firefox 2+, Safari 3+, Opera 9+, Chrome 1+. &nbsp; &nbsp; ### Please go to the <a href="http://www.noonnoo.com/my-free-wordpress-themes/fazyvo/fazyvo_1-6/">Theme Page (http://www.noonnoo.com/category/my-free-wordpress-themes/fazyvo/)</a> if you want to say thanks (I'd really appreciate that!), want to see screenshots or more information. &nbsp; &nbsp; ### CHANGELOG since Fazyvo 1.5: &nbsp; # 1. Trackbacks/pingbacks show up in the commentslist now. &nbsp; # 2. There is a pagesmenu now. You can disable it at the optionspage.
+Version: 1.6
+Author: Melle Wynia
+Author URI: http://www.noonnoo.com/about_contact/
+Tags: blue, right-sidebar, fixed-width, custom-colors, custom-header, theme-options
+*/
+
+
+
+
+
+body {
+	margin:0; padding:0;
+}
+
+a img {
+	border:0px;
+}
+
+hr {
+	display:none;
+}
+
+
+
+
+
+#header {
+	margin:0 auto; padding:31px 0 0 0;
+	width:980px; height:120px;
+	font-family:Arial, sans-serif;
+}
+
+#header a {
+	color:#fff;
+	text-decoration:none;
+}
+
+#header h1 {
+	margin:0; padding:0 0 0 90px;
+	display:inline;
+	font-size:45px; letter-spacing:-2px; font-weight:normal;
+}
+
+#header blockquote {
+	margin:0; padding:0;
+	display:inline;
+	font-size:12px;
+}
+
+
+
+
+
+.rap {
+	margin:0 auto; padding:0;
+	width:980px;
+	overflow:visible;
+	background:url(images/rap_bg.gif) repeat-y 85px 0px;
+}
+
+
+
+
+
+.content {
+	margin:-35px 0 0 0; padding:0 85px 0 129px;
+	width:470px;
+	float:left;
+	color:#333; font:14px/1.4em Arial, sans-serif;
+}
+
+.content #pagesmenu {
+	padding:0 0 39px 0;
+}
+
+.content #pagesmenu ul {
+	margin:0 -39px; padding:11px 39px;
+	width:550px;
+	position:absolute;
+	list-style:none;
+	background:url(images/pagesmenu_bg.png) no-repeat bottom left; 
+	font:13px/13px Arial, sans-serif;
+}
+
+#pagesmenu li {
+	margin:0; padding:0 10px 0 0;
+	display:inline;
+}
+
+.content .current_page_item a {
+	text-decoration:none;
+}
+
+.content h1 {
+	margin:0; padding:30px 0 0 0;
+	clear:both;
+	line-height:1.1em;
+}
+
+.content h1 a {
+	text-decoration:none; font-size:29px; letter-spacing:-0.05em;
+}
+
+.content .storytitle a {
+	display:block;
+}
+
+.content h2 {
+	margin:25px 0 0 0; padding:0;
+	font-size:23px;
+}
+
+.content h3 {
+	margin:16px 0 0 0; padding:0;
+	font-size:18px;
+}
+
+.content h4 {
+	margin:12px 0 0 0; padding:0;
+	font-size:16px;
+}
+
+.content h5 {
+	margin:7px 0 0 0; padding:0;
+	font-size:14px;
+}
+
+.content h6 {
+	margin:7px 0 0 0; padding:0;
+	font-size:12px;
+}
+
+.content .info {
+	margin:32px 0 0 0;
+}
+
+.info a {
+	text-decoration:none;
+}
+
+.content .meta, .comment cite {
+	margin:0;
+	color:#777; font-size:13px;
+}
+
+.content p, address, table {
+	margin:7px 0 0 0;
+}
+
+.content a:hover {
+	text-decoration:none;
+}
+
+.content img {
+	max-width:100%;
+}
+
+ul, ol {
+	margin:7px 0 0 39px; padding:0;
+}
+
+.content li {
+	margin:4px 0;
+}
+
+.content li li {
+	margin:4px 0 4px 15px;
+}
+
+blockquote {
+	margin:0 0 0 39px;
+	color:#777;
+}
+
+.content th, .content td {
+	padding:5px;
+	border-bottom:1px solid #777;
+}
+
+.aligncenter
+{
+	margin:1px;
+	text-align:center;
+}
+
+.alignleft {
+	margin:1px;
+	float: left;
+}
+
+.alignright {
+	margin:1px;
+	float: right;
+}
+
+.nav_link {
+	padding:30px 0 0 0;
+	clear:both;
+	text-align:center;
+}
+
+
+
+
+
+.commentlist {
+	margin:0; padding:0;
+	list-style:none;
+}
+
+#comment {
+	width:100%;
+	color:#333; font:14px/1.4em Arial, sans-serif;
+}
+
+.navigation_comments {
+	padding:20px 0;
+}
+
+.commentlist li {
+	margin:30px 0 0 0; padding:5px 0 0 0;
+	border-top:1px solid #d5d5d5;
+}
+
+.commentlist ul {
+	margin:0 0 0 20px;; padding:0;
+}
+
+.commentlist li li {
+	margin:15px 0 0 0;
+	list-style:none;
+}
+
+cite img {
+	margin:0 0 -3px 0;
+}
+
+#submit {
+	cursor:pointer;
+}
+
+
+
+
+
+.sidebar {
+	padding:3px 0 0 0;
+	width:235px;
+	float:left; 
+	color:#777; font:13px/1.4em Arial, sans-serif;
+}
+
+.sidebar .screen-reader-text, #search label {
+	display:none;
+}
+
+.sidebar ul {
+	margin:0; padding:0;
+	list-style:none;
+}
+
+.sidebar ul ul, .textwidget {
+	margin:1px 0 0 0;
+}
+
+.sidebar ul li {
+	margin:34px 0 0 0;
+}
+
+.sidebar ul li li, select {
+	margin:4px 0 0 0; padding:0;
+}
+
+.sidebar ul ul ul {
+	margin:0 0 0 15px;
+	list-style:square;
+}
+
+.sidebar  a, #footer a, .content #pagesmenu a {
+	color:#777; 
+}
+
+.sidebar a:hover, #footer a:hover {
+	text-decoration:none;
+}
+
+.sidebar  h2 {
+	margin:0; padding:0;
+	font-weight:normal; font-size:16px;
+}
+
+.sidebar  h2 a {
+	border:none;
+	text-decoration:none;
+}
+
+#searchsubmit, select {
+	cursor:pointer;
+}
+
+.sidebar tbody td {
+	width:50px;
+}
+
+.sidebar thead {
+	text-align:left; 
+}
+
+#today {
+	font-weight:bold; font-style:italic;
+}
+
+
+
+
+
+
+#footer {
+	padding:1px 0 35px 130px;
+	clear:both;
+	background:#fff url(images/footer_bg.png) no-repeat 85px 0px;
+	color:#777; font:13px/1.4em Arial, sans-serif;
+}
+
+#footer p {
+	margin:0; padding:31px 0 0 0;
+}
+
+#footer .first {
+	margin:73px 0 0 0; padding:0;
+}
+
+#footer p span a {
+	border:none;
+	text-decoration:none; font-size:16px;
+}
