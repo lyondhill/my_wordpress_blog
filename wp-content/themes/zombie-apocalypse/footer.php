@@ -32,7 +32,7 @@ $zmb_copyright = $options['zmb_copyright'];
 			<div id="site-info"  <?php if($options) if ($zmb_info == "Hide") { ?> style="background:none;padding-top:10px;" <?php }   ?> >
 				<a href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<?php bloginfo( 'name' ); ?>
-				</a> | Theme design by <a href="http://www.htx.ro" target="_blank" title="Themes, Templates and Web design" > Cryout Creations </a>
+				</a> 
 			</div><!-- #site-info -->
 	<?php if ($zmb_copyright != '') { ?><div id="site-copyright"><?php echo $zmb_copyright; ?> </div> <?php } ?>
 			<div id="site-generator">

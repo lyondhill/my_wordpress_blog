@@ -7,10 +7,6 @@
 	<?php bloginfo('description'); ?>
 	</h2>
 	<p>
-		<!-- Proudly Powered By WordPress -->
-		<p id="wordpress">
-            &lsaquo; <a href="http://wordpress.org/" title="Proudly Powered by WordPress" rel="friend">WP</a>owered &rsaquo;
-        </p>    
    	    <a href="<?php bloginfo('rss2_url'); ?>" title="Entried RSS Feed">Entries feed</a>
 		and <a href="<?php bloginfo('comments_rss2_url'); ?>" title="Comments RSS Feed">Comments feed</a>
 		<br />A <a href="http://blueberryware.net/" rel="friend" title="Blueberry Theme">Blueberryware</a>
