@@ -1,7 +1,9 @@
 <?php
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
- * @package words
+ 
+* gello
+* @package words
  */
 
 /**
