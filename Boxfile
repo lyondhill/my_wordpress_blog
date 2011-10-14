@@ -1,0 +1,6 @@
+web1:
+  network_writable_dirs: [ /wp-content/uploads/ ]
+  display_errors: off
+  php_upload_max_filesize: 2000M
+  php_post_max_size: 2000M
+  extensions: [ mysqli, mbstring, mysql ]
