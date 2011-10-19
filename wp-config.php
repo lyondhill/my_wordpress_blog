@@ -25,7 +25,7 @@ define('DB_USER', 'winnifred'); //chanel
 define('DB_PASSWORD', 'mgyX47ZP'); //EXpUMzAN
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost:/tmp/mysql/katie.sock'); //:/tmp/mysql/lilliana.sock
+define('DB_HOST', 'tunnel.pagodabox.com:3306'); //:/tmp/mysql/lilliana.sock
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
