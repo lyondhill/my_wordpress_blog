@@ -16,13 +16,13 @@
 
 // ** MySQLPAYRTY TIME settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'katie'); // test
+define('DB_NAME', 'melani'); // test
 
 /** MySQL database username */
-define('DB_USER', 'an'); //chanel
+define('DB_USER', 'winnifred'); //chanel
 
 /** MySQL database password */
-define('DB_PASSWORD', '4pThovM0'); //EXpUMzAN
+define('DB_PASSWORD', 'mgyX47ZP'); //EXpUMzAN
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost:/tmp/mysql/katie.sock'); //:/tmp/mysql/lilliana.sock
